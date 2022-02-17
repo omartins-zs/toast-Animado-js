@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f0f0f5;
+  font-family: "Open Sans", sans-serif;
+}
+
+.toast {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 30px;
+  overflow: hidden;
+
+  background: #9bf0bd;
+  height: auto;
+  width: 150px;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(56, 56, 56, 0.8);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.toast strong {
+  color: #467757;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.toast p {
+  color: #477757;
+  font-size: 14px;
+}
